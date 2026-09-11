@@ -1,0 +1,16 @@
+{
+  "name": "MY DAY",
+  "short_name": "MY DAY",
+  "description": "Routine quotidienne simple : prières, 3 missions, 10 minutes suffisent.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F4EF",
+  "theme_color": "#1F6B5A",
+  "lang": "fr",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
