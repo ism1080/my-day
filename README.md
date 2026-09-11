@@ -22,8 +22,8 @@ Puis ouvrir http://localhost:8765 dans le navigateur.
 
 ## Installer sur le téléphone (Android)
 
-L'app doit être hébergée sur une adresse `https://` (GitHub Pages, Netlify…).
-Ensuite, dans Chrome sur le téléphone : ouvrir l'adresse → menu ⋮ → **« Ajouter à l'écran d'accueil »** / **« Installer l'application »**.
+L'app est en ligne ici : **https://ism1080.github.io/my-day/**
+Dans Chrome sur le téléphone : ouvrir l'adresse → menu ⋮ → **« Ajouter à l'écran d'accueil »** / **« Installer l'application »**.
 Elle s'ouvre alors comme une vraie app, plein écran, et marche sans réseau.
 
 ## Modifier les horaires de prière
@@ -43,6 +43,13 @@ Réglages → *Sauvegarde* → **Copier mes données**, puis coller et **Importe
 ## Mettre à jour l'app après une modification des fichiers
 
 Changer le numéro de version (`?v=2` → `?v=3`) dans `index.html` et dans `sw.js` (`CACHE` et `FILES`), sinon le téléphone peut garder l'ancienne version en cache.
+Puis publier :
+
+```bash
+git add -A && git commit -m "maj" && git push
+```
+
+Le site se met à jour tout seul en 1 à 2 minutes.
 
 ## Fichiers
 
